@@ -1,0 +1,1983 @@
+.censuable {
+  font-size: 16px;
+  float: left;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.censuable > a {
+  color: #000;
+  text-decoration: underline;
+}
+.question {
+  border: 1px solid;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 15%);
+}
+.survey-Tab-Int {
+  position: fixed;
+  bottom: 0%;
+  width: 100%;
+  z-index: 999999999;
+}
+.censuable-tab {
+  font-size: 12px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.censuable-tab > a {
+  color: #000;
+  text-decoration: underline;
+}
+.icon-close {
+  float: right;
+  color: gray;
+
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.icon-expand {
+  float: right;
+  color: gray;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+.survey-bg {
+  background-color: #474747;
+  padding-top: 1px;
+  min-height: 100vh;
+  position: fixed;
+  bottom: 0%;
+  z-index: 99999;
+  width: 100%;
+}
+
+.survey-embded {
+  background-color: #ffffff;
+  padding-top: 1px;
+  min-height: 100vh;
+}
+
+.main-box {
+  max-width: 60%;
+  min-width: 60%;
+  padding-bottom: 37px;
+  display: flex;
+  margin: 10px;
+
+  background: #fcfcfc;
+  flex-direction: column;
+  margin: 0 auto;
+  transition: 0.6s;
+  border-radius: 10px;
+  height: 490px;
+
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.MuiBox-root-6 {
+  margin-top: 0px !important;
+}
+.main-box-tab {
+  max-width: 500px;
+  min-height: 300px;
+  height: 450px;
+  border-radius: 10px;
+  margin: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  transition: 0.6s;
+
+  transform: translateY(0);
+  box-shadow: 0px 2px 5px #888888;
+  background: #fcfcfc;
+}
+
+.progress {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background: #d6d6d6;
+  border-radius: 6px !important;
+  height: 12px;
+}
+.progress-tab {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  background: #d6d6d6;
+  border-radius: 6px !important;
+  height: 10px;
+}
+.question-number {
+  float: left;
+  width: 100%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.question-number-tab {
+  /* float: left; */
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.progress-bar {
+  background: #8e8e8e !important;
+  height: 16px;
+}
+.next-btn {
+  width: 30%;
+  padding: 15px !important;
+  /* margin-top: 20px !important; */
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 800 !important;
+  letter-spacing: 1px !important;
+  background-color: #114b78 !important;
+  margin: 10px 20px;
+  border-radius: 15px;
+  box-shadow: none;
+  font-size: 20px;
+  height: 50px;
+}
+.next-btn-tab {
+  width: 35%;
+  padding: 15px !important;
+  /* margin-top: 20px !important; */
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 800 !important;
+  letter-spacing: 1px !important;
+  background-color: #114b78 !important;
+  margin: 10px 20px;
+  border-radius: 15px;
+  box-shadow: none;
+  font-size: 20px;
+  height: 50px;
+}
+.MuiButton-label {
+  font-size: 17px !important;
+}
+.prev-btn {
+  width: 30%;
+  padding: 15px !important;
+  /* margin-top: 20px !important; */
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 800 !important;
+  letter-spacing: 1px !important;
+  background-color: #114b78 !important;
+  margin: 10px 20px;
+  border-radius: 15px;
+  box-shadow: none;
+  font-size: 20px;
+  height: 50px;
+}
+.MuiButton-root {
+  border-radius: 6px !important;
+}
+.prev-btn-tab {
+  width: 35%;
+
+  padding: 15px !important;
+  margin-top: 10px 20px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 800 !important;
+  letter-spacing: 1px !important;
+  background-color: #114b78;
+  font-size: 20px;
+  height: 50px;
+}
+.next-btn2 {
+  width: 25%;
+  padding: 15px !important;
+  /* margin-top: 20px !important; */
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 800 !important;
+  letter-spacing: 1px !important;
+  background-color: #114b78 !important;
+  margin: 10px 20px;
+  border-radius: 15px;
+  box-shadow: none;
+  font-size: 20px;
+  height: 50px;
+}
+.next-btn2-tab {
+  display: block !important;
+  margin: 0 auto !important;
+  width: 30%;
+  padding: 15px !important;
+  /* margin-top: 80px !important; */
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 800 !important;
+  letter-spacing: 1px !important;
+  background-color: #114b78;
+}
+.next-btn2-tab2 {
+  position: relative;
+  right: 160px;
+}
+.MuiButton-containedPrimary {
+  background-color: #114b78 !important;
+  font-size: 20px;
+}
+.MuiButton-contained {
+  box-shadow: none !important;
+}
+.images-survey {
+  cursor: pointer;
+}
+.images-survey-tab {
+  cursor: pointer;
+}
+
+.questions-tab {
+  border: 1px solid;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgb(0 0 0 / 15%);
+  cursor: pointer;
+}
+.questions-tab > p {
+  font-family: "Poppins", sans-serif !important;
+  padding-top: 0px;
+  font-weight: 800;
+  font-size: 14px !important;
+
+  cursor: pointer;
+}
+.worst {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bolder;
+
+  font-size: 20px;
+}
+.worst-tab {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bolder;
+}
+.best {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bolder;
+}
+.worst-stars {
+  top: 350px;
+  left: -174px;
+}
+.best-stars {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bolder;
+}
+.best-stars-tab {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bolder;
+}
+.suggestion-box {
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+  height: 250px;
+  border: 1px solid #d6d6d6;
+  padding: 10px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 900;
+  border-radius: 10px;
+  font-size: 24px;
+  margin-bottom: 50px;
+}
+.suggestion-box-tab {
+  float: left;
+  width: 100%;
+
+  height: 210px;
+  border: 1px solid #d6d6d6;
+  padding: 10px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 900;
+  border-radius: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.question-text {
+  margin-top: 10px;
+  font-size: 24px;
+
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 0px;
+  height: 50px;
+}
+.question-text-tab {
+  margin-top: 15px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+
+  height: 40px;
+}
+.feedback-image {
+  float: left;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.submit-btn {
+  width: 20%;
+  padding: 15px !important;
+  display: block !important;
+  margin: 0 auto !important;
+  margin-top: 40px !important;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 800 !important;
+  letter-spacing: 1px !important;
+}
+.feedback-box {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  height: 250px;
+  border: 1px solid #d6d6d6;
+  padding: 10px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 900;
+  border-radius: 10px;
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+.feedback-box-tab {
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  height: 200px;
+  border: 1px solid #d6d6d6;
+  padding: 10px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 900;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+.feedback-text {
+  background-image: url("https://playground.censubledev.com/Images/feedback-bg.png");
+  color: #fff;
+  border-radius: 6px;
+  background-size: 100% 100%;
+  padding: 17px 0;
+  margin-top: 70px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+}
+.feedback-text-tab {
+  background-image: url("https://playground.censubledev.com/Images/feedback-bg.png");
+  color: #fff;
+  border-radius: 6px;
+  background-size: 100% 100%;
+  padding: 17px 0;
+  margin-top: 70px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+.feedbackbg {
+  text-align: center;
+}
+.survey-btn {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 900 !important;
+  font-size: 20px !important;
+  margin-top: 200px !important;
+  border-radius: 3px !important;
+  padding: 15px !important;
+  background-color: #fff !important;
+  color: #000 !important;
+  padding-left: 10px !important;
+  text-transform: capitalize !important;
+}
+.down-arrow {
+  font-size: 2rem;
+  margin-left: 28px;
+}
+.MuiButton-contained.Mui-disabled {
+  background-color: #d6d6d6 !important;
+}
+.take-survey {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 9999;
+  width: 100%;
+}
+.loading-icon {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 120px;
+  padding-bottom: 180px;
+}
+.stars-image {
+  width: 80%;
+  cursor: pointer;
+}
+.stars-image-tab {
+  width: 90%;
+  /* height: 100%; */
+  cursor: pointer;
+}
+.star1 {
+  height: 0;
+}
+.answersssss {
+  box-shadow: 0 0 5px rgb(0 0 0 / 15%);
+  border-radius: 6px;
+  border: 1px solid #afafaf;
+  background-color: #ffffff;
+  width: 100%;
+  justify-content: center;
+  margin: 5px 0px;
+  padding: 5px 0px;
+}
+.star1-tab {
+}
+
+.heart-image-tab {
+  width: 15%;
+  margin-right: 12px;
+  margin-left: 12px;
+  margin-top: 10px;
+  float: left;
+  margin-bottom: 60px;
+}
+.heart1-tab {
+  margin-bottom: -40px;
+}
+.heart1 {
+  height: 0;
+}
+.best-tab {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: bolder;
+  position: relative;
+  top: -40px;
+  left: 405px;
+}
+.ring-text {
+  font-weight: 600;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.ring-text-tab {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: -33px;
+}
+.ring-image {
+  margin-right: 13px;
+  margin-left: 13px;
+  margin-bottom: 60px;
+  float: left;
+}
+.ring-image-tab {
+  margin-right: -24px;
+  margin-left: -5px;
+  margin-bottom: 60px;
+  float: left;
+  width: 75%;
+}
+.worst-heart {
+  top: 200px;
+}
+.best-heart {
+  font-size: 20px;
+  top: 405px;
+  right: 290px;
+}
+.circle {
+  stroke: #00ff00 !important;
+}
+.tick {
+  stroke: #00ff00 !important;
+}
+.thankyou-tick-tab {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.thankyou-tick {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+
+/* ----------- Galaxy Tab 2 ----------- */
+/* Portrait */
+@media (max-device-width: 800px) and (orientation: portrait) {
+  .stars-image-tab {
+  }
+  .best-stars-tab {
+  }
+}
+
+/* Landscape */
+@media (max-device-width: 1280px) and (orientation: landscape) {
+  .worst {
+    font-size: 20px;
+  }
+  .best {
+    font-size: 20px;
+    right: 150px;
+  }
+}
+
+/* Iphone 4 & 4S
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .censuable {
+    font-size: 12px;
+  }
+  .icon-close {
+    margin-top: auto;
+  }
+  button > span {
+    font-size: 10px;
+  }
+  .prev-btn {
+    padding: 10px !important;
+    width: 35% !important;
+  }
+  .next-btn {
+    padding: 10px !important;
+    width: 35% !important;
+  }
+  .progress {
+    height: 5px;
+  }
+
+  .question-text {
+    font-size: 15px !important;
+  }
+}
+/* Landscape */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  img {
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+  }
+  .progress {
+    height: 5px;
+  }
+  .prev-btn {
+    padding: 10px !important;
+    width: 35% !important;
+  }
+  .next-btn {
+    padding: 10px !important;
+    width: 35% !important;
+  }
+  .censuable {
+    font-size: 12px;
+  }
+  .icon-close {
+    margin-top: auto;
+  }
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .censuable {
+    font-size: 16px;
+  }
+  .icon-close {
+    margin-top: auto;
+  }
+  .progress {
+    height: 5px;
+  }
+  .prev-btn {
+    padding: 10px !important;
+    width: 35% !important;
+  }
+  .next-btn {
+    padding: 10px !important;
+    width: 35% !important;
+  }
+
+  .best {
+    top: 340px;
+    right: 113px;
+    font-size: 15px;
+  }
+  .worst-stars {
+    top: 240px;
+    left: -185px;
+  }
+
+  .ring-image {
+    width: 64px;
+    height: 64px;
+    margin-left: 28px !important;
+    margin-right: 28px !important;
+  }
+  .ring-text {
+    font-size: 10px !important;
+    height: 40px;
+    margin-left: 28px;
+  }
+  .ring-text-tab {
+    margin-left: 0 !important;
+    height: 50px;
+    margin-top: 0;
+  }
+  .ring-data {
+    width: 20%;
+  }
+  .prev-btn {
+    margin-top: 30px !important;
+  }
+  .next-btn {
+    margin-top: 30px !important;
+  }
+  .question-text {
+    margin-top: 25px;
+    font-size: 20px;
+  }
+  .suggestion-box {
+    margin-top: 20px;
+    height: 120px;
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+
+  .survey-btn {
+    margin-top: 150px !important;
+    font-size: 20px !important;
+  }
+  .main-box-tab {
+    max-width: 600px;
+    min-width: 600px;
+  }
+  .censuable-tab {
+    font-size: 10px;
+  }
+  .icon-expand {
+    font-size: 1rem;
+    margin-top: 1px;
+  }
+  .icon-close {
+    font-size: 1rem;
+  }
+
+  .images-survey-tab {
+  }
+  .next-btn2-tab {
+    width: 30% !important;
+    padding: 8px !important;
+  }
+  .questions-tab {
+  }
+  .questions-tab > p {
+    font-size: 12px !important;
+    padding-top: 1px;
+  }
+
+  .stars-image-tab {
+    cursor: pointer;
+  }
+
+  .heart-image-tab {
+    margin-right: 11px;
+    margin-left: 11px;
+  }
+  .best-tab {
+    top: 10px;
+    left: 472px;
+    font-size: 12px;
+  }
+  .worst-tab {
+    top: 70px;
+    left: -90px;
+    font-size: 12px;
+  }
+  .best-heart-tab {
+    top: -40px;
+    left: 432px;
+    font-size: 14px;
+  }
+  .worst-heart-tab {
+    top: 90px;
+    left: -98px;
+    font-size: 14px;
+  }
+  .ring-image-tab {
+    margin-bottom: 50px;
+    margin-right: 34px;
+    margin-left: 12px;
+  }
+  .next-btn2-tab2 {
+    right: 0;
+  }
+  .suggestion-box-tab {
+    margin-top: 0;
+  }
+  .feedback-box-tab {
+    margin-top: 0;
+    height: 130px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .feedback-text-tab {
+    font-size: 15px;
+  }
+  .question-number {
+    font-size: 12px;
+  }
+  .question-number-tab {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .thankyou-tick-tab {
+    margin-bottom: 60px;
+  }
+  .main-box {
+    max-width: 94%;
+    min-width: 500px;
+  }
+}
+
+/* Iphone 5 series */
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .best {
+    top: 243px;
+    right: 62px;
+    font-size: 11px;
+  }
+
+  .worst-stars {
+    top: 180px;
+  }
+  .ring-image {
+    width: 30px;
+    height: 30px;
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+  }
+  .ring-text {
+    font-size: 7px !important;
+    height: 20px;
+  }
+  .ring-data {
+    width: 20%;
+  }
+  .prev-btn {
+    margin-top: 30px !important;
+  }
+  .next-btn {
+    margin-top: 30px !important;
+  }
+  .question-text {
+    margin-top: 15px;
+    font-size: 8px;
+    margin-bottom: 10px;
+  }
+  .suggestion-box {
+    margin-top: 0px;
+    height: 180px;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .feedback-image {
+    margin-top: 15px;
+  }
+  .feedback-box {
+    margin-top: 25px;
+    font-size: 15px;
+    height: 125px;
+    margin-bottom: 25px;
+  }
+  .submit-btn {
+    width: 50%;
+    padding: 9px !important;
+  }
+  .feedback-text {
+    font-size: 15px;
+  }
+  .feedback-box {
+    margin-top: 0px;
+  }
+  .next-btn2 {
+    width: 50%;
+    padding: 8px !important;
+  }
+
+  .survey-btn > span {
+    font-size: 15px;
+  }
+  .main-box-tab {
+    max-width: 94%;
+    min-width: 300px;
+  }
+  .censuable-tab {
+    font-size: 8px;
+  }
+  .icon-expand {
+    font-size: 1rem;
+    margin-top: 1px;
+  }
+  .icon-close {
+    font-size: 1rem;
+  }
+
+  .images-survey-tab {
+  }
+  .next-btn2-tab {
+    width: 40%;
+    padding: 8px;
+  }
+  .questions-tab {
+  }
+  .questions-tab > p {
+    font-size: 15px !important;
+    padding-top: 1px;
+  }
+
+  .worst-tab {
+    font-size: 11px;
+  }
+  .next-btn2-tab {
+    padding: 8px !important;
+  }
+  .heart-image-tab {
+    margin-right: 6px;
+    margin-left: 6px;
+  }
+  .best-tab {
+    top: 10px;
+    left: 184px;
+    font-size: 11px;
+  }
+  .ring-text-tab {
+    font-size: 9px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: -17px;
+    height: 30px;
+  }
+  .next-btn2-tab2 {
+    right: 0px;
+  }
+  .suggestion-box-tab {
+    margin-top: 0;
+    font-size: 12px;
+    height: 130px;
+  }
+  .feedback-box-tab {
+    margin-top: 0;
+    height: 130px;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  .feedback-text-tab {
+    font-size: 12px;
+  }
+  .question-number {
+    font-size: 10px;
+  }
+  .main-box {
+    max-width: 94%;
+    min-width: 300px;
+
+    margin-bottom: 34px;
+  }
+  .question-number-tab {
+    font-size: 11px;
+  }
+  .stars-image-tab {
+  }
+  .circular-chart {
+    width: 55%;
+  }
+  .thankyou-tick > h2 {
+    font-size: 25px !important;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .censuable {
+    font-size: 15px;
+  }
+  .icon-close {
+    margin-top: auto;
+  }
+  .progress {
+    height: 5px;
+  }
+  .prev-btn {
+    padding: 10px !important;
+    width: 35% !important;
+  }
+  .next-btn {
+    padding: 10px !important;
+    width: 35% !important;
+  }
+
+  .best {
+    right: 103px;
+    font-size: 11px;
+  }
+  .worst-stars {
+    top: 215px;
+  }
+
+  .ring-image {
+    width: 40px;
+    height: 40px;
+    margin-left: 28px !important;
+    margin-right: 28px !important;
+  }
+  .ring-text {
+    font-size: 10px !important;
+    height: 40px;
+  }
+  .ring-data {
+    width: 20%;
+  }
+  .prev-btn {
+    margin-top: 30px !important;
+  }
+  .next-btn {
+    margin-top: 30px !important;
+  }
+  .question-text {
+    margin-top: 60px;
+    font-size: 16px !important;
+  }
+  .suggestion-box {
+    margin-top: 0px;
+    height: 120px;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .next-btn2 {
+    width: 40%;
+    padding: 8px !important;
+  }
+
+  .question-text {
+    font-size: 18px !important;
+    margin-top: 30px;
+  }
+  .survey-btn {
+    margin-top: 100px !important;
+    font-size: 20px !important;
+  }
+  .main-box-tab {
+    width: 90% !important;
+  }
+  .censuable-tab {
+    font-size: 10px;
+  }
+  .icon-expand {
+    font-size: 1rem;
+    margin-top: 1px;
+  }
+  .icon-close {
+    font-size: 1rem;
+  }
+
+  .images-survey-tab {
+  }
+  .next-btn2-tab {
+    width: 30% !important;
+    padding: 8px !important;
+  }
+  .questions-tab {
+  }
+  .questions-tab > p {
+    font-size: 12px !important;
+    padding-top: 1px;
+  }
+
+  .stars-image-tab {
+  }
+
+  .worst-tab {
+    font-size: 12px;
+  }
+
+  .heart-image-tab {
+    margin-right: 11px;
+    margin-left: 11px;
+    margin-bottom: 48px;
+  }
+  .best-tab {
+    top: -42px;
+    left: 378px;
+    font-size: 12px;
+  }
+  .worst-heart-tab {
+    top: 75px;
+    left: -90px;
+    font-size: 12px;
+  }
+  .ring-text-tab {
+    margin-top: 0;
+    height: 30px;
+  }
+  .next-btn2-tab2 {
+    margin-top: 10px !important;
+    right: 0;
+  }
+  .ring-image-tab {
+    margin-bottom: 20px;
+  }
+  .suggestion-box-tab {
+    margin-top: 0;
+    height: 102px;
+    font-size: 12px;
+  }
+  .feedback-box-tab {
+    margin-top: 0;
+    height: 130px;
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+  .feedback-text-tab {
+    font-size: 15px;
+    margin-top: 25px;
+  }
+  .question-number {
+    font-size: 12px;
+  }
+  .main-box {
+    height: 495px;
+    max-width: 94%;
+    min-width: 500px;
+  }
+
+  .submit-btn {
+    width: 25% !important;
+    padding: 8px !important;
+  }
+  .thankyou-tick-tab {
+    margin-bottom: 20px;
+  }
+  .thankyou-tick {
+    margin-top: 100px;
+  }
+}
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .best {
+    top: 235px !important;
+    right: 80px !important;
+  }
+
+  .ring-image {
+    width: 40px;
+    height: 40px;
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+  }
+
+  .survey-btn {
+    font-size: 60px !important;
+  }
+  .stars-image-tab {
+  }
+
+  .worst-tab {
+    font-size: 12px;
+  }
+  .best-tab {
+    top: 10px;
+    left: 218px;
+    font-size: 11px;
+  }
+  .worst-heart-tab {
+    font-size: 11px;
+    top: 56px;
+    left: -60px;
+  }
+  .ring-text-tab {
+    margin-top: 10px;
+  }
+
+  .main-box {
+    /* margin-bottom: 133px; */
+  }
+  .ring-text {
+    margin-left: 12px;
+  }
+  .suggestion-box-tab {
+    height: 130px;
+  }
+  .thankyou-tick {
+    margin-top: 120px;
+  }
+}
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .main-box {
+    /* margin-bottom: 493px; */
+    /* height: 615px; */
+    max-width: 94%;
+    min-width: 600px;
+  }
+  .question-text {
+    font-size: 24px;
+  }
+
+  .best {
+    top: 390px;
+    right: 125px;
+    font-size: 20px;
+  }
+  .ring-image {
+    width: 60px;
+    height: 60px;
+    margin-left: 23px !important;
+    margin-right: 40px !important;
+  }
+  .ring-text {
+    font-size: 10px !important;
+    height: 20px;
+  }
+  .ring-data {
+    width: 20%;
+  }
+  .prev-btn {
+    margin-top: 30px !important;
+  }
+  .next-btn {
+    margin-top: 30px !important;
+  }
+  .survey-btn > span {
+    font-size: 35px;
+  }
+  .main-box-tab {
+    width: 80% !important;
+  }
+  .censuable-tab {
+    font-size: 16px;
+  }
+  .icon-expand {
+    font-size: 1rem;
+    margin-top: 1px;
+  }
+  .icon-close {
+    font-size: 1rem;
+  }
+
+  .images-survey-tab {
+  }
+  .next-btn2-tab {
+    width: 30% !important;
+    padding: 12px !important;
+  }
+
+  .stars-image-tab {
+  }
+
+  .worst-tab {
+    font-size: 18px;
+  }
+
+  .best-heart-tab {
+    left: 445px;
+    font-size: 18px;
+    top: -38px;
+  }
+  .heart1-tab {
+    margin-bottom: -50px;
+  }
+  .worst-heart-tab {
+    top: 95px;
+    left: -108px;
+    font-size: 18px;
+  }
+  .next-btn2-tab2 {
+    right: 0;
+  }
+  .suggestion-box-tab {
+    margin-top: 0;
+  }
+  .feedback-text-tab {
+    margin-top: 50px;
+  }
+
+  .suggestion-box {
+    margin-bottom: 50px;
+  }
+  .heart-image-tab {
+    margin-bottom: 50px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .main-box {
+    max-width: 94%;
+    min-width: 800px;
+  }
+  .question-text {
+    font-size: 30px;
+  }
+
+  .best {
+    top: 415px;
+    right: 172px;
+  }
+  .ring-image {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px !important;
+    margin-top: 20px;
+    margin-right: 65px !important;
+  }
+  .ring-text {
+    font-size: 14px !important;
+    height: 20px;
+  }
+  .ring-data {
+    width: 20%;
+  }
+  .prev-btn {
+    margin-top: 30px !important;
+  }
+  .next-btn {
+    margin-top: 30px !important;
+  }
+  .main-box-tab {
+    width: 80% !important;
+  }
+  .censuable-tab {
+    font-size: 16px;
+  }
+  .icon-expand {
+    font-size: 1rem;
+    margin-top: 1px;
+  }
+  .icon-close {
+    font-size: 1rem;
+  }
+
+  .images-survey-tab {
+  }
+  .next-btn2-tab {
+    width: 30% !important;
+    padding: 12px !important;
+  }
+
+  .stars-image-tab {
+  }
+
+  .star1-tab {
+    margin-bottom: -50px;
+  }
+  .worst-tab {
+    font-size: 18px;
+  }
+
+  .heart-image-tab {
+    margin-right: 24px;
+    margin-bottom: 60px;
+  }
+  .worst-heart-tab {
+    top: 120px;
+  }
+  .best-heart-tab {
+    font-size: 20px;
+    top: 160px;
+    left: 620px;
+  }
+  .next-btn2-tab2 {
+    right: 0;
+  }
+  .suggestion-box-tab {
+    margin-top: 0;
+  }
+  .heart1-tab {
+    height: 0;
+  }
+
+  .suggestion-box {
+    margin-bottom: 50px;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .survey-btn > span {
+    font-size: 20px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .censuable {
+    font-size: 18px;
+  }
+  .icon-close {
+    margin-top: auto;
+  }
+  .progress {
+    height: 5px;
+  }
+  .prev-btn {
+    padding: 10px !important;
+    width: 35% !important;
+  }
+  .next-btn {
+    padding: 10px !important;
+    width: 35% !important;
+  }
+
+  .main-box {
+    height: 570px;
+    max-width: 600px;
+    min-width: 600px;
+  }
+
+  .best {
+    top: 339px;
+    right: 150px !important;
+    font-size: 15px;
+  }
+  .worst-stars {
+    top: 255px;
+    left: -200px;
+  }
+
+  .ring-image {
+    width: 55px;
+    height: 55px;
+    margin-left: 28px !important;
+    margin-right: 44px !important;
+  }
+  .ring-text {
+    font-size: 10px !important;
+    height: 20px;
+  }
+  .ring-data {
+    width: 20%;
+  }
+  .prev-btn {
+    margin-top: 30px !important;
+  }
+  .next-btn {
+    margin-top: 30px !important;
+  }
+  .question-text {
+    margin-top: 25px;
+    font-size: 15px;
+  }
+  .suggestion-box {
+    margin-top: 0px;
+    height: 120px;
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+  .survey-btn {
+    margin-top: 150px !important;
+    font-size: 20px !important;
+  }
+  .main-box-tab {
+    max-width: 800px;
+    min-width: 800px;
+  }
+  .censuable-tab {
+    font-size: 10px;
+  }
+  .icon-expand {
+    font-size: 1rem;
+    margin-top: 1px;
+  }
+  .icon-close {
+    font-size: 1rem;
+  }
+
+  .images-survey-tab {
+  }
+  .next-btn2-tab {
+    width: 30% !important;
+    padding: 8px !important;
+  }
+  .questions-tab {
+  }
+  .questions-tab > p {
+    font-size: 12px !important;
+    padding-top: 1px;
+  }
+
+  .stars-image-tab {
+  }
+
+  .worst-tab {
+    font-size: 14px;
+  }
+
+  .worst-heart-tab {
+    top: 100px;
+    left: -145px;
+    font-size: 25px;
+  }
+  .best-heart-tab {
+    top: -55px;
+    left: 532px;
+    font-size: 25px;
+  }
+  .heart1-tab {
+    height: 0;
+    margin-bottom: 0;
+  }
+  .next-btn2-tab2 {
+    right: 0;
+  }
+  .ring-text-tab {
+    margin-top: 10px;
+  }
+  .suggestion-box-tab {
+    margin-top: 0;
+  }
+  .heart-image-tab {
+    margin-right: 20px;
+    margin-left: 12px;
+  }
+  .ring-image-tab {
+    margin-bottom: 30px;
+  }
+  .feedback-box-tab {
+    height: 125px;
+    font-size: 15px;
+  }
+  .feedback-text-tab {
+    font-size: 15px;
+    margin-top: 50px;
+  }
+  .question-number-tab {
+    font-size: 12px;
+  }
+  .question-number {
+    font-size: 12px;
+  }
+
+  .thankyou-tick-tab {
+    margin-bottom: 60px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .best {
+    font-size: 12px;
+    right: 75px !important;
+  }
+  .ring-image {
+    width: 40px;
+    height: 40px;
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+  }
+  .survey-btn > span {
+    font-size: 20px;
+  }
+  .stars-image-tab {
+  }
+  .best-stars-tab {
+  }
+
+  .best-tab {
+    left: 240px;
+  }
+  .worst-heart-tab {
+    top: 60px;
+    left: -68px;
+    font-size: 11px;
+  }
+  .main-box {
+    margin-bottom: 202px;
+  }
+
+  .main-box-tab {
+    padding-bottom: 50px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .question-number {
+    font-size: 12px;
+  }
+  .question-number-tab {
+    font-size: 12px;
+  }
+  .censuable {
+    font-size: 18px;
+  }
+  .icon-close {
+    margin-top: auto;
+  }
+  .progress {
+    height: 5px;
+  }
+  .prev-btn {
+    padding: 10px !important;
+    width: 35% !important;
+  }
+  .next-btn {
+    padding: 10px !important;
+    width: 35% !important;
+  }
+
+  .best {
+    top: 330px;
+    right: 132px !important;
+  }
+  .worst-stars {
+    top: 245px;
+    left: -208px;
+  }
+
+  .ring-image {
+    width: 64px;
+    height: 64px;
+    margin-left: 19px !important;
+    margin-right: 28px !important;
+  }
+  .ring-text {
+    font-size: 10px !important;
+    height: 20px;
+  }
+  .ring-data {
+    width: 20%;
+  }
+  .prev-btn {
+    margin-top: 30px !important;
+  }
+  .next-btn {
+    margin-top: 30px !important;
+  }
+  .question-text {
+    margin-top: 25px;
+    font-size: 20px;
+  }
+
+  .suggestion-box {
+    margin-top: 0px;
+    height: 120px;
+    font-size: 12px;
+    margin-bottom: 50px;
+  }
+  .feedback-box {
+    margin-bottom: 25px;
+  }
+  .survey-btn {
+    margin-top: 180px !important;
+    font-size: 25px !important;
+  }
+  .main-box-tab {
+    max-width: 700px;
+    min-width: 700px;
+  }
+  .censuable-tab {
+    font-size: 10px;
+  }
+  .icon-expand {
+    font-size: 1rem;
+    margin-top: 1px;
+  }
+  .icon-close {
+    font-size: 1rem;
+  }
+
+  .images-survey-tab {
+  }
+  .next-btn2-tab {
+    width: 30% !important;
+    padding: 8px !important;
+  }
+  .questions-tab {
+  }
+  .questions-tab > p {
+    font-size: 12px !important;
+    padding-top: 1px;
+  }
+
+  .stars-image-tab {
+  }
+
+  .worst-tab {
+    font-size: 11px;
+  }
+  .best-tab {
+    top: 5px;
+    left: 512px;
+  }
+  .worst-heart-tab {
+    top: 100px;
+    left: -112px;
+    font-size: 17px;
+  }
+  .best-heart-tab {
+    top: -50px !important;
+    left: 501px;
+    font-size: 17px;
+  }
+  .next-btn2-tab2 {
+    right: 0;
+  }
+  .ring-image-tab {
+    margin-bottom: 40px;
+  }
+  .suggestion-box-tab {
+    margin-top: 0;
+  }
+  .feedback-box-tab {
+    margin-top: 0;
+    height: 130px;
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .feedback-text-tab {
+    font-size: 15px;
+  }
+  .heart-image-tab {
+    margin-right: 16px;
+    margin-left: 14px;
+    margin-bottom: 60px;
+  }
+  .main-box {
+    height: 565px;
+    max-width: 500px;
+    min-width: 500px;
+  }
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .best {
+    top: 419px !important;
+    right: 162px;
+    font-size: 25px;
+  }
+  .worst-stars {
+    top: 310px;
+  }
+
+  .survey-btn > span {
+    font-size: 45px;
+  }
+
+  .stars-image-tab {
+  }
+
+  .worst-tab {
+    font-size: 16px;
+  }
+
+  .heart-image-tab {
+    margin-right: 24px;
+  }
+  .worst-heart-tab {
+    top: 120px;
+  }
+  .best-heart-tab {
+    font-size: 20px;
+    left: 620px;
+  }
+  .main-box {
+    height: 610px;
+    margin-bottom: 805px;
+  }
+
+  .images-survey-tab {
+  }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .survey-btn > span {
+    font-size: 45px;
+  }
+  .suggestion-box-tab {
+    margin-top: 0;
+  }
+  .stars-image-tab {
+  }
+  .worst-tab {
+  }
+
+  .suggestion-box {
+    margin-bottom: 30px;
+  }
+
+  .heart-image-tab {
+    margin-right: 12px !important;
+    margin-left: 12px !important;
+    margin-bottom: 50px;
+  }
+  .best-tab {
+    top: -28px !important;
+    left: 400px !important;
+  }
+  .main-box-tab {
+    max-width: 900px;
+    min-width: 900px;
+  }
+}
+
+/* ----------- iPad Pro 10.5" ----------- */
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .best {
+    top: 345px;
+    right: 115px;
+  }
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .best {
+    top: 380px;
+    right: 132px;
+  }
+  .worst-stars {
+    top: 320px;
+    left: -198px;
+  }
+
+  .ring-image {
+    height: 120px;
+    width: 120px;
+    margin-left: 25px !important;
+    margin-right: 25px !important;
+  }
+  .ring-text {
+    width: 90%;
+    height: 80px;
+  }
+  .ring-data {
+    width: 20%;
+  }
+}
+
+/* Retina */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  .images-survey-tab {
+  }
+
+  .heart-image-tab {
+    width: 15%;
+    margin-right: 9px;
+    margin-left: 9px;
+    margin-top: 10px;
+    float: left;
+  }
+  .feedback-text-tab {
+    font-size: 25px;
+  }
+  .best-tab {
+    top: 20px;
+    left: 328px;
+  }
+
+  .best-heart {
+    top: 455px;
+    right: 220px;
+  }
+
+  .ring-text-tab {
+    width: 90%;
+    height: 65px;
+  }
+}
+
+@media only screen and (min-device-width: 1080px) and (max-device-width: 1080px) and (-webkit-min-device-pixel-ratio: 2) {
+  .images-survey-tab {
+  }
+
+  .next-btn2-tab {
+    width: 30%;
+  }
+  .question-text {
+    margin-bottom: 40px;
+  }
+
+  .feedback-text-tab {
+    font-size: 22px;
+  }
+  .submit-btn {
+    width: 30%;
+  }
+  .heart-image-tab {
+    margin-right: 9px;
+    margin-left: 9px;
+  }
+  .worst-tab {
+    font-size: 18px;
+  }
+  .best-tab {
+    top: 20px;
+    left: 295px;
+  }
+  .star1-tab {
+    margin-bottom: -50px;
+  }
+
+  .worst-heart {
+    top: 185px;
+    left: -138px;
+  }
+  .best-heart {
+    top: 460px;
+    right: 188px;
+  }
+  .stars-image-tab {
+  }
+
+  .main-box {
+    height: 590px;
+  }
+  .ring-image-tab {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    margin-right: 34px;
+    margin-left: 12px;
+  }
+  .ring-text-tab {
+    font-size: 9px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 0px;
+    height: 30px;
+    width: 50%;
+  }
+  .ring-data {
+    margin-left: -16px;
+    margin-right: -82px;
+  }
+  .ring-image-tab {
+    width: 35%;
+  }
+  .ring-text {
+    width: 50%;
+    height: 63px;
+    position: relative;
+    left: 37px;
+  }
+  .ring-image {
+    margin-right: 78px;
+    margin-left: 36px;
+  }
+  .images-survey-tab {
+  }
+}
+
+@media only screen and (min-device-width: 1600px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) {
+  .survey-bg {
+    min-height: 100vh;
+  }
+}
+@media only screen and (min-device-width: 2560px) and (max-device-width: 2560px) {
+}
+
+.take-survey-h3 {
+  font-weight: 500;
+  font-size: 16px;
+  align-self: center;
+
+  margin-top: 8px;
+  color: #122838;
+  margin-left: 10px;
+}
+.take-survey-container {
+  display: "flex";
+  flex-direction: "row";
+  justify-content: "space-between";
+  min-width: 200;
+}
+.survey_thanks {
+  text-align: center;
+  background-image: url("https://app.censuble.com/web_survey/v2/assets/img/thanks-bg.svg");
+  padding: 10px;
+  margin: 15px;
+  border-radius: 7px;
+}
+.survey_question_text {
+  margin-top: 7px;
+  color: #122838;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+.survey_textarea {
+  width: 100%;
+  color: #122838;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.survey_textarea textarea {
+  padding: 10px;
+  color: #122838;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  width: 90%;
+  height: 164px;
+  border-radius: 6px;
+  margin: 15px auto 10 auto;
+  border: 1px solid #afafaf;
+  background-color: #ffffff;
+}
+.survey_question_text.thanks {
+  color: #ffffff;
+}
